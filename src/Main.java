@@ -21,5 +21,20 @@ public class Main {
 
         input.close();
         System.out.println(Energy.KineticEnergy(Mass, Velocity));
+        
+        //             .....POTENTIAL ENERGY.....
+            System.out.println("\t \t .....POTENTIAL ENERGY.....");
+            System.out.println("Input Mass");
+            Mass = input.nextDouble();
+
+            System.out.println("Input Height");
+            Height = input.nextDouble();
+            System.out.println("Potential Energy: ");
+
+
+            System.out.println(Energy.PotentialEnergy(Mass, 10, Height));
+
+
+        }
     }
 }
